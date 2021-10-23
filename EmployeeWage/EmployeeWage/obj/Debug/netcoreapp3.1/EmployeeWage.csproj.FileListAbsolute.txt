@@ -1,0 +1,5 @@
+C:\Users\NEHA TELECOM\source\repos\EmployeeWage\EmployeeWage\obj\Debug\netcoreapp3.1\EmployeeWage.csproj.AssemblyReference.cache
+C:\Users\NEHA TELECOM\source\repos\EmployeeWage\EmployeeWage\obj\Debug\netcoreapp3.1\EmployeeWage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NEHA TELECOM\source\repos\EmployeeWage\EmployeeWage\obj\Debug\netcoreapp3.1\EmployeeWage.AssemblyInfoInputs.cache
+C:\Users\NEHA TELECOM\source\repos\EmployeeWage\EmployeeWage\obj\Debug\netcoreapp3.1\EmployeeWage.AssemblyInfo.cs
+C:\Users\NEHA TELECOM\source\repos\EmployeeWage\EmployeeWage\obj\Debug\netcoreapp3.1\EmployeeWage.csproj.CoreCompileInputs.cache

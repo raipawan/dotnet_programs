@@ -1,0 +1,13 @@
+C:\Users\NEHA TELECOM\source\repos\practice\practice\obj\Debug\netcoreapp3.1\practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NEHA TELECOM\source\repos\practice\practice\obj\Debug\netcoreapp3.1\practice.AssemblyInfoInputs.cache
+C:\Users\NEHA TELECOM\source\repos\practice\practice\obj\Debug\netcoreapp3.1\practice.AssemblyInfo.cs
+C:\Users\NEHA TELECOM\source\repos\practice\practice\obj\Debug\netcoreapp3.1\practice.csproj.CoreCompileInputs.cache
+C:\Users\NEHA TELECOM\source\repos\practice\practice\bin\Debug\netcoreapp3.1\practice.exe
+C:\Users\NEHA TELECOM\source\repos\practice\practice\bin\Debug\netcoreapp3.1\practice.deps.json
+C:\Users\NEHA TELECOM\source\repos\practice\practice\bin\Debug\netcoreapp3.1\practice.runtimeconfig.json
+C:\Users\NEHA TELECOM\source\repos\practice\practice\bin\Debug\netcoreapp3.1\practice.runtimeconfig.dev.json
+C:\Users\NEHA TELECOM\source\repos\practice\practice\bin\Debug\netcoreapp3.1\practice.dll
+C:\Users\NEHA TELECOM\source\repos\practice\practice\bin\Debug\netcoreapp3.1\practice.pdb
+C:\Users\NEHA TELECOM\source\repos\practice\practice\obj\Debug\netcoreapp3.1\practice.dll
+C:\Users\NEHA TELECOM\source\repos\practice\practice\obj\Debug\netcoreapp3.1\practice.pdb
+C:\Users\NEHA TELECOM\source\repos\practice\practice\obj\Debug\netcoreapp3.1\practice.genruntimeconfig.cache

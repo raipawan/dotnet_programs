@@ -1,0 +1,13 @@
+C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\bin\Debug\netcoreapp3.1\Snakeandladder.exe
+C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\bin\Debug\netcoreapp3.1\Snakeandladder.deps.json
+C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\bin\Debug\netcoreapp3.1\Snakeandladder.runtimeconfig.json
+C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\bin\Debug\netcoreapp3.1\Snakeandladder.runtimeconfig.dev.json
+C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\bin\Debug\netcoreapp3.1\Snakeandladder.dll
+C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\bin\Debug\netcoreapp3.1\Snakeandladder.pdb
+C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\obj\Debug\netcoreapp3.1\Snakeandladder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\obj\Debug\netcoreapp3.1\Snakeandladder.AssemblyInfoInputs.cache
+C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\obj\Debug\netcoreapp3.1\Snakeandladder.AssemblyInfo.cs
+C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\obj\Debug\netcoreapp3.1\Snakeandladder.csproj.CoreCompileInputs.cache
+C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\obj\Debug\netcoreapp3.1\Snakeandladder.dll
+C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\obj\Debug\netcoreapp3.1\Snakeandladder.pdb
+C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\obj\Debug\netcoreapp3.1\Snakeandladder.genruntimeconfig.cache
