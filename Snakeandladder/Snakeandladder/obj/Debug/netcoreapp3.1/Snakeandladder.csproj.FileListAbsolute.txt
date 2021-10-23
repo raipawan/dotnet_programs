@@ -11,3 +11,4 @@ C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\obj\Debug\netco
 C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\obj\Debug\netcoreapp3.1\Snakeandladder.dll
 C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\obj\Debug\netcoreapp3.1\Snakeandladder.pdb
 C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\obj\Debug\netcoreapp3.1\Snakeandladder.genruntimeconfig.cache
+C:\Users\NEHA TELECOM\source\repos\Snakeandladder\Snakeandladder\obj\Debug\netcoreapp3.1\Snakeandladder.csproj.AssemblyReference.cache

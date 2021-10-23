@@ -11,3 +11,4 @@ C:\Users\NEHA TELECOM\source\repos\practice\practice\bin\Debug\netcoreapp3.1\pra
 C:\Users\NEHA TELECOM\source\repos\practice\practice\obj\Debug\netcoreapp3.1\practice.dll
 C:\Users\NEHA TELECOM\source\repos\practice\practice\obj\Debug\netcoreapp3.1\practice.pdb
 C:\Users\NEHA TELECOM\source\repos\practice\practice\obj\Debug\netcoreapp3.1\practice.genruntimeconfig.cache
+C:\Users\NEHA TELECOM\source\repos\practice\practice\obj\Debug\netcoreapp3.1\practice.csproj.AssemblyReference.cache

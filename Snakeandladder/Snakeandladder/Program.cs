@@ -14,7 +14,8 @@ namespace Snakeandladder
              }
 
              Console.WriteLine("You have won the game in " + uc3.getTotalTurns() + " turns");*/
-            UC4 uc4 = new UC4();
+           // Console.WriteLine(args[0]);
+            UC4 uc4 = new UC4("Sanjeev", "Pavan");
             uc4.startGame();
        
 

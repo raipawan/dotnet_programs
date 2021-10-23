@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NEHA TELECOM\\source\\repos\\practice\\practice\\practice.csproj",
-      "projectName": "practice",
-      "projectPath": "C:\\Users\\NEHA TELECOM\\source\\repos\\practice\\practice\\practice.csproj",
+      "projectUniqueName": "C:\\Users\\NEHA TELECOM\\source\\repos\\practice\\practice\\employeewagearray.csproj",
+      "projectName": "employeewagearray",
+      "projectPath": "C:\\Users\\NEHA TELECOM\\source\\repos\\practice\\practice\\employeewagearray.csproj",
       "packagesPath": "C:\\Users\\NEHA TELECOM\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\NEHA TELECOM\\source\\repos\\practice\\practice\\obj\\",
       "projectStyle": "PackageReference",

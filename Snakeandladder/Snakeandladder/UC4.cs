@@ -6,34 +6,35 @@ namespace Snakeandladder
 {
     class UC4
     {
-        const int FINAL_POSITION = 100;
+        
         const int INITIAL_POSITION = 0;
+        const int FINAL_POSITION = 100;
         const int LADDER = 0;
         const int SNAKE = 1;
         const int FIX = 2;
-        int position1;
-        int position2;
         int totalCount;
         Random random = null;
         bool player1Turn = true;
+        Player P1;
+        Player P2;
        
 
-        public UC4()
+        public UC4(string p1Name, string p2Name)
         {
-            this.position1 = INITIAL_POSITION;
-            this.position2 = INITIAL_POSITION;
             this.random = new Random();
             this.totalCount = INITIAL_POSITION;
+            this.P1 = new Player(p1Name, INITIAL_POSITION);
+            this.P2 = new Player(p2Name, INITIAL_POSITION);
         }
         public void startGame()
         {
-            while(getWinner() == 0)
+            while(getWinner() == null)
             {
                 updatePsition();
                 this.player1Turn = !this.player1Turn;
             }
-            int winner = getWinner();
-            Console.WriteLine("Winner is Player " + winner);
+            Player winner = getWinner();
+            Console.WriteLine("Winner is :" + winner.getName() );
         }
 
         private int nextMove()
@@ -54,14 +55,14 @@ namespace Snakeandladder
         public void updatePsition()
         {
             int position;
-            int player = this.player1Turn ? 1 : 2;
+            Player player = this.player1Turn ? P1 : P2;
             if (this.player1Turn)
             {
-                position = this.position1;
+                position = this.P1.score;
                 this.totalCount++;
             }
             else
-                position = this.position2;
+                position = this.P2.score;
             
             int move = nextMove();
             int nextPos = position + move;
@@ -72,20 +73,20 @@ namespace Snakeandladder
                 position = nextPos;
 
             if (this.player1Turn)
-                this.position1 = position;
+                this.P1.score = position;
             else
-                this.position2 = position;
+                this.P2.score = position;
 
-            Console.WriteLine("Player :" + player + " Move No. :" + this.totalCount + " Position :" + position);
+            Console.WriteLine("Player :" + player.getName() + " Move No. :" + this.totalCount + " Position :" + position);
         }
 
-        public int getWinner()
+        public Player getWinner()
         {
-            if (this.position1 == FINAL_POSITION)
-                return 1;
-            if (this.position2 == FINAL_POSITION)
-                return 2;
-            return 0;
+            if (this.P1.isWin())
+                return this.P1;
+            if (this.P2.isWin())
+                return this.P2;
+            return null;
         }
         public int getTotalTurns() 
         { 
