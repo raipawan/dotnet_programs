@@ -6,19 +6,31 @@ namespace Linecomparison
 {
     class UC1
     {
-        public int length(int x1, int y1, int x2, int y2)
+
+        public float linelength(int x1, int y1, int x2, int y2)
         {
-            return 0;
+            double lengthOfline = Math.Sqrt((x2 - x1) + (y2 - y1));
+            return (float)lengthOfline;
         }
 
-        public bool isEqual(int x1, int y1, int x2, int y2)
+
+        public int compare(float line1, float line2)
         {
-            return false;
+            if (line1 == line2)
+            {
+                return 0;
+            }
+            else if (line1 > line2)
+            {
+                return 1;
+            }
+            else;
+            return 2;
+
+            line1 = linelength(4, 6, 7, 8);
+            line2 = linelength(8, 7, 5, 3);
+
         }
 
-        public int compare(int x1, int y1, int x2, int y2)
-        {
-            return 0;
-        }
     }
 }
