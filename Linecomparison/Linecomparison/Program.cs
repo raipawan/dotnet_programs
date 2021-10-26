@@ -8,13 +8,13 @@ namespace Linecomparison
         {
 
 
-            float linelength(int x1, int y1, int x2, int y2)
+            double linelength(double x1, double y1, double x2, int y2)
             {
                 double lengthOfline = Math.Sqrt((x2 - x1) + (y2 - y1));
-                return (float)lengthOfline;
+                return (double)lengthOfline;
             }
-            float line1 = linelength(4, 6, 7, 8);
-            float line2 = linelength(4, 6, 9, 8);
+            double line1 = linelength(4, 6, 7, 8);
+            double line2 = linelength(4, 6, 9, 8);
             Console.WriteLine("welcome to line comparison");
 
             Console.WriteLine("length of line1 is " + line1 + " length of line2 is " + line2);
