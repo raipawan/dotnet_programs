@@ -2,14 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace leapYear
+namespace Day5Assignment
 {
-    public class Class1
+    class LeapYear
     {
-
-
-
-        public void Leapyear()
+        public void getYear()
         {
             Console.WriteLine("enter year :");
             int Year = Convert.ToInt32(Console.ReadLine());

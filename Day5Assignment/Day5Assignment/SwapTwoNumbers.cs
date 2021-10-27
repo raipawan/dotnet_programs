@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace swapTwoNumbers
+namespace Day5Assignment
 {
-    class Program
+    class SwapTwoNumbers
     {
-        static void Main(string[] args)
+        public void Swapping()
         {
+
             int number1;
             int number2;
             int temp;
@@ -22,7 +25,8 @@ namespace swapTwoNumbers
             Console.Write("\nAfter Swapping : ");
             Console.Write("\nFirst Number : " + number1);
             Console.Write("\nSecond Number : " + number2);
-            Console.Read();
+
+            Console.ReadLine();
         }
     }
 }

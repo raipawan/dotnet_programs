@@ -2,20 +2,17 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace headsVsTails
+namespace Day5Assignment
 {
-    class UC
+    class HeadvsTail
     {
         public int numberOfHeads;
         public int numberOfTails;
-
-
         public void GetPercent()
         {
             string a;
             Console.WriteLine("enter a number");
-            a = Console.ReadLine();
-            int numberOfFlips = Convert.ToInt32(a);
+            int numberOfFlips = Convert.ToInt32(Console.ReadLine());
 
 
             for (int i = 0; i < numberOfFlips; i++)
@@ -33,7 +30,8 @@ namespace headsVsTails
                     numberOfTails++;
                 }
             }
-
+            Console.WriteLine("number of Heads : " + numberOfHeads);
+            Console.WriteLine("number of Tails : " + numberOfTails + "\n");
 
 
 
@@ -42,18 +40,14 @@ namespace headsVsTails
             int c = numberOfTails;
             int d = numberOfFlips;
 
-            double percentOfHeads = b * 100 / d;
-            double percentOfTails = c * 100 / d;
+            int percentOfHeads = (int)(0.5f + ((100f * b) / d));
+            int percentOfTails = (int)(0.5f + ((100f * c) / d));
 
 
-            Console.WriteLine("percent of heads is " + percentOfHeads + "%");
-            Console.WriteLine("percent of heads is " + percentOfTails + "%");
+
+            Console.WriteLine("percent of heads is " + decimal.Round(percentOfHeads) + "%");
+            Console.WriteLine("percent of Tails is " + decimal.Round(percentOfTails) + "%");
 
         }
-
     }
 }
-
-
-
-

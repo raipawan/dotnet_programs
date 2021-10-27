@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace EvenOdd
+namespace Day5Assignment
 {
-    class Program
+    class EvenOrOdd
     {
-        static void Main(string[] args)
+        public void getAnswer()
         {
             Console.WriteLine("Please Enter a Number");
             int number = Convert.ToInt32(Console.ReadLine());
@@ -12,12 +14,13 @@ namespace EvenOdd
 
             if (number % 2 == 0)
             {
-                Console.WriteLine("Even Number");
+                Console.WriteLine(number + " is Even Number");
             }
             else
             {
-                Console.WriteLine("Odd Number");
+                Console.WriteLine(number + " is Odd Number");
             }
         }
     }
 }
+
