@@ -10,7 +10,7 @@ namespace Linecomparison
 
             double linelength(double x1, double y1, double x2, int y2)
             {
-                double lengthOfline = Math.Sqrt((x2 - x1) + (y2 - y1));
+                double lengthOfline = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2));
                 return (double)lengthOfline;
             }
             double line1 = linelength(4, 6, 7, 8);

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteChange", "NoteChange\NoteChange.csproj", "{4E30F728-E838-4C9E-BECB-32D1CF0A150D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E30F728-E838-4C9E-BECB-32D1CF0A150D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E30F728-E838-4C9E-BECB-32D1CF0A150D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E30F728-E838-4C9E-BECB-32D1CF0A150D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E30F728-E838-4C9E-BECB-32D1CF0A150D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9538C41-9941-454C-83FD-57091786D3D6}
+	EndGlobalSection
+EndGlobal
