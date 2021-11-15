@@ -7,11 +7,12 @@ namespace LinkedListPractice
         static void Main(string[] args)
         {
             Node head = Node.AddNode(null, 5);
-            Node.AddNode(head, 7);
-            Node.AddNode(head, 10);
+            Node.AddNode(head, 56);
+            Node.AddNode(head, 70);
 
-            int sum = Node.getSum(head);
+            /*int sum = Node.getSum(head);
             Console.WriteLine(sum);
+        }*/
         }
     }
 }

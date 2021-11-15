@@ -22,6 +22,7 @@ namespace LinkedListPractice
         }
         public static Node AddNode(Node head, int data)
         {
+            Node temp = head;
             Node node = new Node(data);
             if (head == null)
             {
@@ -32,40 +33,33 @@ namespace LinkedListPractice
                 head.next = node;
             else
             {
-                while (head.next != null)
+                while (temp.next != null)
                 {
-                    head = head.next;
+
+                    temp = temp.next;
                 }
-                head.next = node;
+                temp.next = node;
             }
+
+            Console.WriteLine(head);
             return head;
         }
-        public static int getSum(Node head)
-        {
-            int sum = 0;
-            if (head == null)
-                return sum;
-            while (head != null)
-            {
-                sum = head.data + sum;
-                head = head.next;
+        /* public static int getSum(Node head)
+         {
+             int sum = 0;
+             if (head == null)
+                 return sum;
+             while (head != null)
+             {
+                 sum = head.data + sum;
+                 head = head.next;
 
-            }
+             }
 
-            return sum;
-        }
+             return sum;
+         }*/
 
-        public int GetArraySum(int[] arr)
-        {
-            int sum = 0;
-            int size = arr.Length;
-            while (size > 0)
-            {
-                sum = arr[size] + sum;
-                size--;
-            }
-            return sum;
-        }
+
 
 
 

@@ -28,37 +28,44 @@ namespace Day8Assignment_EmpWage
             /*UC7 uC7 = new UC7();
             uC7.GetWorkingHour();*/
 
-            Point p1 = new Point(1, 1);
+            LinkedList<UC8> list = new LinkedList<UC8>();
+            list.AddLast(new UC8(50, 20, 7, "Google"));
+            list.AddLast(new UC8(45, 21, 7, "Amazon"));
+            list.AddLast(new UC8(48, 19, 7, "Microsoft"));
+            list.AddLast(new UC8(40, 20, 7, "Flipkart"));
+            list.AddLast(new UC8(42, 20, 7, "Adobe"));
+            list.AddLast(new UC8(45, 20, 7, "Oracle"));
+            list.AddLast(new UC8(40, 21, 7, "Paytm"));
+            list.AddLast(new UC8(30, 20, 7, "Zomato"));
+            list.AddLast(new UC8(25, 22, 7, "Swiggy"));
+            list.AddLast(new UC8(35, 20, 7, "Pinelabs"));
+
+            foreach (UC8 uc in list)
+            {
+                uc.GetTotalWage();
+            }
+
+            string input = "Zomato";
+
+            foreach (UC8 uc in list)
+            {
+                if (uc.CompanyName.Equals(input))
+                {
+                    Console.WriteLine("total wage for " + input + " employee :" + uc.TotalWage);
+                }
+            }
+
+            /*Point p1 = new Point(1, 1);
             Point p2 = new Point(1, 3);
             Point p3 = new Point(2, 1);
-            Point p4 = new Point(21, 1);
-            Point p5 = new Point(2, 12);
-            Point p6 = new Point(20, 1);
-            Point p7 = new Point(2, 15);
 
 
             Line line1 = new Line(p1, p2);
             Line line2 = new Line(p1, p3);
-            Line line3 = new Line(p1, p4);
-            Line line5 = new Line(p1, p5);
-            Line line6 = new Line(p1, p6);
-            Line line4 = new Line(p1, p7);
-            Line line7 = new Line(p2, p3);
-            Line line8 = new Line(p4, p3);
 
             List<Line> list = new List<Line>();
             list.Add(line1);
             list.Add(line2);
-            list.Add(line4);
-            list.Add(line3);
-            list.Add(line5);
-            list.Add(line6);
-            list.Add(line7);
-            list.Add(line8);
-
-            list.Sort();
-            foreach (Line line in list)
-                Console.WriteLine(line.GetLength());
 
             int x = line1.CompareTo(line2);
             if (x == 1)
@@ -67,7 +74,7 @@ namespace Day8Assignment_EmpWage
                 Console.WriteLine("length of 2nd line is greater than line1 length");
             else
                 Console.WriteLine("length of both the lines are equal");
-
+*/
         }
     }
 }
