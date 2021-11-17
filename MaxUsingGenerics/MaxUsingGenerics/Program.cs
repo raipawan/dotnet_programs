@@ -1,13 +1,12 @@
 ﻿using System;
 
-namespace TicTacToe
+namespace MaxUsingGenerics
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Board board = new Board();
-            board.GetInputAndUpdateBoard();
+            Console.WriteLine("Hello World!");
         }
     }
 }
