@@ -6,8 +6,11 @@ namespace TIicTacToeGame
     {
         static void Main(string[] args)
         {
-            Board board = new Board();
-            board.CreateBoard();
+            TicTacToe ticTacToe = new TicTacToe();
+            ticTacToe.CreateBoard();
+
+            ticTacToe.Input();
+
         }
     }
 }
